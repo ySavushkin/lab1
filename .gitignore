@@ -1,0 +1,14 @@
+#ignore all .png, .exe, .docx
+*.png
+*.exe
+*.docx
+
+#but track label.png
+!label.png
+
+#ignore all files in garbage/
+garbage/
+
+#ignore doc/2023.txt, but not a doc/stats/static.txt
+doc/*.txt
+

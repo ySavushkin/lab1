@@ -1,0 +1,7 @@
+#ignore all .png
+*.png
+
+#but track label.png
+!label.png
+
+#
